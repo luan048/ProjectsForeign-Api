@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <form method="get" action=".">
+        <div class="container">
+            <h1>Cadastrar CEP</h1>
+
+            <div class="form-group col-md-2">
+                <label for="inputCEP">CEP</label>
+                <input type="text" id="cep">
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="inputCEP">Rua</label>
+                <input type="text" id="rua">
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="inputCEP">Nº</label>
+                <input type="text">
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="inputCEP">Bairro</label>
+                <input type="text" id="bairro">
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="inputCEP">Complemento</label>
+                <input type="text">
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="inputCEP">Cidade</label>
+                <input type="text" id="cidade">
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="inputCEP">Estado</label>
+                <input type="text" id="estado">
+            </div>
+
+            <button type="button" class="button" onclick="pasquiserCEP()">Cadastrar CEP</button>
+
+        </div>
+    </form>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
