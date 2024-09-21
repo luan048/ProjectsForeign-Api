@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+
+#turismo {
+    text-align: center;
+}
+
+#local-1, #local-2 {
+    width: 50%;
+    height: 300px;
+    float: left;
+}
